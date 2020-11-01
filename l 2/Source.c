@@ -1,10 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
-
 #include <stdio.h>
-
 #define Check_Symbol ( ( (s[i] > 64) && (s[i] < 91) ) || ( (s[i] > 96) && (s[i] < 123) ) || ( (s[i] > 127) && (s[i] < 176) ) || ( (s[i] > 223) && (s[i] < 240) ) )
 //print the shortest word in a line
-
 void print(unsigned char* m, int a, int b)
 {
 	for (int i = a; i <= b; i++)
@@ -94,7 +91,5 @@ int main()
 	printf("\nShortest word: \n");
 
 	print(s, a[minInd][0], a[minInd][1]);
-	
-
 	return 0;
 }
