@@ -89,13 +89,12 @@ int main()
 			minInd = j;
 		}
 	}
-	//сравнение каждого слова с минимальной длиной
-
+	
 
 	printf("\nShortest word: \n");
 
 	print(s, a[minInd][0], a[minInd][1]);
-	//вывод повтор€ющихс€ слов с 1 в 3 столбце
+	
 
 	return 0;
 }
