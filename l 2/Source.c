@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-#define Check_Symbol ( ( (s[i] > 64) & (s[i] < 91) ) || ( (s[i] > 96) & (s[i] < 123) ) || ( (s[i] > 127) & (s[i] < 176) ) || ( (s[i] > 223) & (s[i] < 240) ) )
+#define Check_Symbol ( ( (s[i] > 64) && (s[i] < 91) ) || ( (s[i] > 96) && (s[i] < 123) ) || ( (s[i] > 127) && (s[i] < 176) ) || ( (s[i] > 223) && (s[i] < 240) ) )
 //print the shortest word in a line
 
 void print(unsigned char* m, int a, int b)
