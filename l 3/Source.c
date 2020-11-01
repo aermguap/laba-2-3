@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-float funct(float num1, float num2)  // определение функции
+float funct(float num1, float num2)  // raise one number to the power of another number
 {
 	if (num2 == 0)
 	{
@@ -50,7 +50,7 @@ int main()
 		printf("Input Error");
 		return 0;
 	}
-	printf("result: %f\n", funct(x, y)); // вызов функции
+	printf("result: %f\n", funct(x, y)); 
 
 	return 0;
 }
