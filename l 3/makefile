@@ -1,2 +1,2 @@
-all:
-	gcc Source.c -o hello
+	hello: Source.c
+	gcc -o hello Source.c
