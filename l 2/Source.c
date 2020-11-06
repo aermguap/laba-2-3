@@ -52,3 +52,4 @@ int main(){
 	printf("\nShortest word: \n");
 	print(s, a[minInd][0], a[minInd][1]);
 	return 0;
+}
